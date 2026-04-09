@@ -1,0 +1,14 @@
+(library
+ (name xtr_lib)
+ (libraries core)
+ (preprocess
+  (pps ppx_jane))
+ (modules
+  exceptions
+  name
+  system
+  typecheck
+  wellformed_system
+  linker
+  cesk
+  xtr_lib))

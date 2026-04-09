@@ -1,0 +1,5 @@
+(test
+ (name test_xtr)
+ (libraries core xtr_lib alcotest)
+ (preprocess
+  (pps ppx_jane)))

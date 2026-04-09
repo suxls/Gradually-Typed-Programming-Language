@@ -1,4 +1,4 @@
-# XTR
+# Gradually-Typed Programming Language
 
 A typed, modular object-oriented language interpreter built in OCaml. XTR features structural typing via **shapes**, a **CESK abstract machine** runtime, and **sound linking** for typed module imports.
 
